@@ -1,0 +1,62 @@
+/*Introducao Interna interna_sobre*/
+.interna_lente-contato {
+  background: url("../img/bg-lentes-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.produto_item{
+  padding: 20px 0;
+}
+
+.produto_icone {
+  border-width: medium;
+  border-style: solid;
+  border-color: #000;
+  padding: 16px 0;
+}
+
+.astg {
+  border-width: medium;
+  border-style: solid;
+  border-color: #000;
+  padding: 18px 0;
+}
+
+.produto_icone img {
+  margin: 0 auto;
+}
+
+.lente_info {
+  background: #000;
+}
+
+.lente_info h3 {
+  color: #FFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+  position: relative;
+  margin-top: 20px;
+}
+
+ .miopia {
+    margin-left: 40px;
+}
+
+.hipermetropia {
+text-align: center;
+}
+
+.astigmatismo {
+text-align: right;
+margin-right: 20px;
+}
+
+.lente_info p {
+  color: #FFF;
+  font-size: 18px;
+  line-height: 25px;
+  height: 181px;
+  padding: 30px 40px;
+}

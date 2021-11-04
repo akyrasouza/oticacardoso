@@ -1,0 +1,58 @@
+/*Introducao Interna interna_sobre*/
+.interna_contato {
+  background: url("../img/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/*Foto Nossa Loja*/
+.nossa_loja {
+  padding: 40px 0;
+}
+
+.nossa_loja img {
+  margin: 0 auto;
+}
+
+/*Contatos Horarios Redes*/
+.contatos {
+  padding: 20px 0;
+}
+
+.contatos h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+
+.contatos h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 6px 0 12px 0;
+}
+
+.contatos ul li  {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contatos_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contatos_redes ul li a {
+  border: 3px solid #000;
+  display: block;
+  padding: 10px;
+}
+
+.contatos_redes ul li a:hover {
+  border-color: #E01E24;
+}

@@ -1,0 +1,278 @@
+
+
+/*Estilo para Tablet's*/
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+	/*Introdução Interna */
+	.introducao-interna h1 {
+		padding-top: 30px;
+	}
+
+	.interna_sobre p {
+		font-size: 25px;
+		line-height: 40px;
+		padding: 30px 10px;
+	}
+
+		/*Qualidade Sobre-Posicionamento das Linhas*/
+		.qualidade:after {
+			right: 60px;	
+		}
+
+		.qualidade_lista li {
+			padding: 0 10px;
+		}
+
+		/*Footer*/
+		.footer_redes ul li a {
+			border: 3px solid #E01E24;
+			display: block;
+			padding: 6px;
+		}
+
+		.footer_redes ul li img {
+			width: 26px;
+			height: 26px;
+		}
+
+		/*Lente Contato*/
+		.produto_icone {
+			padding: 7px 0;
+		}
+
+		.astg {
+			padding: 8px 0;
+		}
+
+		.lente_info p {
+  		font-size: 14px;
+  		line-height: 20px;
+  		height: 122px;
+  		padding: 20px 30px;
+}
+
+/*Produtos*/
+.produtos_lista li p {
+  padding: 10px  30px;
+}
+
+/*Produtos & Acessorios*/
+.desc-preco h3{
+	padding: 0 5px;
+	font-size: 8px;
+}
+
+.desc-preco p {
+	line-height: 20px;
+	padding: 5px 20px;
+}
+
+}
+
+
+/*Estilo para Smartphones*/
+@media only screen and (max-width: 767px) {
+
+	/*Header*/
+	.header {
+		position: relative;
+		padding-bottom: 0px;
+	}
+
+	.header img {
+		margin: 0 auto 5px auto;
+	}
+
+	.header_menu {
+		text-align: center;
+	}
+
+	.header_menu ul li {
+		margin: 5px;
+	}
+
+	.header_menu ul li a {
+		border: 3px solid #000;
+		width: 136px;
+		display: block;
+		float: left;
+	}
+
+	.header_menu ul li a:hover {
+		border-color: #fff;
+	}
+
+	.header_menu ul li a.menu_ativo {
+		border-color: #FFF;
+	}
+
+	/*Introdução*/
+	.introducao {
+		margin-top:  0px;
+		padding-top: 40px;
+		background: url("../img/bg-home-mobile.jpg") no-repeat center;
+		background-size: cover;
+	}
+
+	/*Introdução Interna*/
+	.introducao-interna {
+		margin-top: 0px;
+	}
+
+	.interna_sobre p {
+		font-size: 25px;
+		text-align: center;
+		line-height: 30px;
+		padding: 20px 20px;
+	}
+
+	
+/*Introdução home -Nova coleção-*/
+.home{
+  padding-top: 100px;
+}
+
+/*Colocar -Nova Colecao- na vertical*/
+.home p {
+	width: 200px;
+  font-size: 29px;
+  margin: 28px -80px; 
+}
+
+#vertical-colecao {
+	transform: rotate(-90deg);
+}
+
+/*Criar circulo*/
+#circulo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #E01E24;
+    margin: -145px 80px;
+    
+}
+#circulo p {
+	display: inline-block;
+  font-size: 48px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #FFF;
+  margin: -10px -6px;
+}
+
+.home h4 {
+	display: inline-block;
+  font-size: 28px;
+  font-family: 'Caveat', cursive;
+  margin-left: 5px;
+	margin: 95px -30px;
+}
+
+.home h3 {
+  font-size: 28px;
+  font-family: 'Caveat', cursive;
+ margin: 50px 230px;
+}
+
+	/*Call*/
+	.call {
+		padding-top: 30px;
+	}
+
+	/*Introducao Interna interna_contato*/
+	.interna_contato {
+		background: url("../img/bg-contato-mobile.jpg") no-repeat center;
+	}
+
+		/*Qualidade Home-Posicionamento das Linhas*/
+		.qualidade:after {
+			display: none;	
+		}
+
+		/*Sobre*/
+		.missao_sobre p {
+			font-size: 14px;
+			line-height: 20px;
+			padding-right: 0px;
+		}
+
+		.missao_sobre ul li {
+			font-size: 14px;
+			line-height: 25px;
+		}
+
+				/*Produtos produtos_listas*/
+		.produtos {
+			padding: 20px 0;
+		}
+
+			/*Produtos -Lente Contato*/
+			.produto_icone {
+				padding: 7px 0;
+			}
+	
+			.astg {
+				padding: 7px 0;
+			}
+			
+			.lente_info h3 {
+				font-size: 14px;
+				padding-top: 10px;
+			}
+			.lente_info p {
+				font-size: 14px;
+				line-height: 20px;
+				height: auto;
+				padding: 30px 30px;
+	}
+
+	/*Acessórios- Home*/
+.acessorios {
+  height: 585px;
+  border: 1px solid #ada9a9;
+}
+
+.acessorios .subtitulo {
+  padding-top: 30px;
+}
+
+/*div's da lista acessorios*/
+.acessorio_lista li{
+  width: 252px;
+  height: 215px;
+  background: #000;
+  padding: 0 30px;
+  margin: 20px auto;
+}
+
+.acessorio_lista li h3 {
+  font-size: 14px;
+  padding: 10px 0px;
+  margin-top: 40px;
+}
+
+.acessorios .call {
+  color: #FFF;
+}
+.acessorios .call p {
+	margin-bottom: 10px;
+  font-style: italic;
+  color: white;
+}
+
+	/*Quebra*/	
+	.quebra {
+		padding-top: 20px;
+	}
+	.quebra .quote-externo p {
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	/*Contato form*/
+		.contato_form {
+ 			 padding-right: 0px;
+				margin-bottom: 40px;
+}
+
+}
